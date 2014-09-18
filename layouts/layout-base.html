@@ -1,0 +1,26 @@
+<!-- header -->
+<header>
+    {header}
+</header> <!-- /header -->
+
+<!-- navigation -->
+<nav>
+    <div id="mainMenu">
+        <f:cObject typoscriptObjectPath="lib.mainMenu" />
+    </div>
+    <div id="subMenu">
+        <f:cObject typoscriptObjectPath="lib.subMenu" />
+    </div>
+</nav> <!-- /navigation -->
+
+<!-- content -->
+<article>
+    <f:format.raw>
+        {content}
+    </f:format.raw>
+</article> <!-- /content -->
+
+<!-- footer -->
+<footer>
+    {footer}
+</footer> <!-- /footer -->
