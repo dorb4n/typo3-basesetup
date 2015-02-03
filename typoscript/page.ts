@@ -6,7 +6,7 @@ page {
     # Load favicon
     10 = TEXT
     10.value < config.baseUrl
-    10.wrap = <link rel="shortcut icon" href="/fileadmin/templates/images/favicon.ico" type="image/x-icon">
+    10.wrap = <link rel="shortcut icon" href="|/fileadmin/templates/images/favicon.ico" type="image/x-icon">
   }
 
   # Load css files
