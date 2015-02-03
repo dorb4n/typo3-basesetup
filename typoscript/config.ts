@@ -19,7 +19,7 @@ config {
   # RealUrl settings
   prefixLocalAnchors = all
   baseURL < config.baseUrl
-  tx_realurl_enable = 1
+  tx_realurl_enable = 0
   
   # Language settings
   sys_language_overlay = hideNonTranslated
@@ -36,4 +36,3 @@ config {
   #compressJs = 1
   #compressCss = 1
 }
-

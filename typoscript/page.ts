@@ -6,30 +6,30 @@ page {
     # Load favicon
     10 = TEXT
     10.value < config.baseUrl
-    10.wrap = <link rel="shortcut icon" href="/fileadmin/templates/img/favicon.ico" type="image/x-icon">
+    10.wrap = <link rel="shortcut icon" href="/fileadmin/templates/images/favicon.ico" type="image/x-icon">
   }
 
   # Load css files
   includeCSS {
-    yuiReset  = http://yui.yahooapis.com/3.17.2/build/cssreset/cssreset-min.css
-    yuiReset.extern = 1
-    fonts     = fileadmin/templates/css/fonts.css
-    layout    = fileadmin/templates/css/layout.css
-    style     = fileadmin/templates/css/style.css
-    print     = fileadmin/templates/css/print.css
+    reset       = fileadmin/templates/css/reset.css
+    base        = fileadmin/templates/css/base.css
+    header      = fileadmin/templates/css/header.css
+    content     = fileadmin/templates/css/content.css
+    footer      = fileadmin/templates/css/footer.css
+    print       = fileadmin/templates/css/print.css
     print.media = print
-    ieonly    = fileadmin/templates/css/ie.css
+    ieonly      = fileadmin/templates/css/ie.css
     ieonly.allWrap = <!--[if IE]>|<![endif]-->
   }
   
   # Load javascript files in the top area (header)
   includeJSlibs {
-    onload = fileadmin/templates/js/headerOnload.js
+    honload = fileadmin/templates/js/header-onload.js
   }
   
   # Load javascript files in the bottom area (footer)
   includeJSFooterlibs {
-    onload = fileadmin/templates/js/footerOnload.js
+    fonload = fileadmin/templates/js/footer-onload.js
   }
   
   10 = FLUIDTEMPLATE
@@ -54,8 +54,8 @@ page {
 }
 
 # Main navigation
-lib.mainMenu = HMENU
-lib.mainMenu {
+lib.main-menu = HMENU
+lib.main-menu {
   special = directory
   special.value = 1
   1 = TMENU
@@ -67,9 +67,9 @@ lib.mainMenu {
   }
 }
 
-# Sub Navigation
-lib.subMenu = HMENU
-lib.subMenu {
+# Sub navigation
+lib.sub-menu = HMENU
+lib.sub-menu {
   entryLevel = 1
 
   1 = TMENU
