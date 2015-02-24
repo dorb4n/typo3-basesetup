@@ -9,6 +9,10 @@ page {
     10.wrap = <link rel="shortcut icon" href="|/fileadmin/templates/images/favicon.ico" type="image/x-icon">
   }
 
+  meta {
+    viewport = width=device-width, initial-scale=1.0
+  }
+
   # Load css files
   includeCSS {
     reset       = fileadmin/templates/css/reset.css

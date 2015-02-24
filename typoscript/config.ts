@@ -26,9 +26,9 @@ config {
   sys_language_mode = content_fallback
   linkVars = L
   sys_language_uid = 0
-  language = de
-  locale_all = de_DE
-  htmlTag_setParams = lang="de" class="no-js"
+  language = en
+  locale_all = en_US
+  htmlTag_langKey = en-US
   
   # Compress js and css files
   #concatenateJs = 1
